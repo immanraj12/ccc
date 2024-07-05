@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.image-sec {
+  height: 250px;
+  width: 300px;
+  border-radius: 60px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.head-sec {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-family: inter;
+}
+
+.button {
+  display: inline-block;
+  background-color: rgb(20, 147, 58);
+  margin-top: 10px;
+  padding: 10px 5px;
+  border-radius: 60px;
+  border-color: white;
+}
+
+.para {
+  margin-right: 00px;
+}
+
+.design-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.svg-section {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.para1 {
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.svg-icon {
+  stroke: rgb(76, 130, 47);
+}
+
+.section-3 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 40px;
+  margin-top: 40px;
+  background-color: rgba(29, 106, 29, 0.852);
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.girl-img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.sec-3-para {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-img {
+  width: 150px;
+  height: 100px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  stroke: rgb(18, 109, 37);
+}67
+
+ .box-icon-1{
+  display: flex;
+  gap:5px;
+}
+
+
+.division-2{
+  display: flex;
+  gap:100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  margin-top: 40px;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+}
+
+
+.section-4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.box-1{
+  display: inline-block;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  background-color: lightcyan;
+  border-radius: 20px;
+}
+
+.box-img{
+  border-radius: 20px;
+  justify-self: center;
+}
